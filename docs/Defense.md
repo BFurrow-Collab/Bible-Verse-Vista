@@ -1014,31 +1014,41 @@ This is the page I'll be starting from to demonstrate the present key features o
 Anyways, back to the rest of the main features, we can see that the default page is very basic. Not quite a blank slate, but very close, and that was my intent. This allows users to let their creativity find what they best prefer. From the basics, we see the Verse of the Day, the Bible Version, and the Theme.<br/>
 There are three themes: Light Mode, Dark Mode, and User Mode. User Mode basically starts in Light Mode, and I wanted to separate the User Mode from it so that Light Mode could be easily set and returned to at any time. Not all users want to go through each element they are able to color, including myself. For my own sake, I simply set mine to dark mode. However, to show the full breadth of the features, I will keep it in User Mode.
 
-![SS default settings](/Bible-Verse-Vista/docs/ss/SS-default.png)
+![SS default settings](./ss/SS-default.png)
 
 Pulling from Bible Gateway's website via Javascript allows me to use their Automatic Verse of the Day code, but I also manually coded a way to access any verse(s) from their website. This gives the users their own choice of verse at any time so long as they type the book, chapter, and verse(s). Notice how it now isn't the same as the automatic verse from before.
-![SS User Choice VotD](Bible-Verse-Vista/docs/ss/SS-verse.png)
-<br/><br/>
+
+![SS User Choice VotD](./ss/SS-verse.png)
+
 The same can be done with the Bible Version, which also categorizes it by language, which I access from Bible Gateway by storing each url section in JavaScript.
+
 ![SS new Bible version](./ss/SS-langs.png) 
+
 ![SS new Bible version and language](./ss/SS-langs2.png)
-<br/><br/>
+
 Now, let's pick up the pace and look at the wide variety of features available. You can customize the main background - choices of images or any color you like, the verse window, the window's border, the header, the text of the verse itself, and event the elements of the settings sidebar itself!
+
 ![SS settings page pic](./ss/SS-settings1.png) 
+
 ![SS settings page pics](./ss/SS-settings2.png)
-<br/><br/>
+
 Here, I'll demonstrate some possibilities to customize and explain what I changed.<br/><br/>
 First, I changed the background of both the main page *and* the verse window. Then, I changed the color of the verse to be white and removed the "Verse of the Day" header. I also changed the thickness and opacity of the border of the verse window.
+
 ![SS promo 1](./ss/ss2.png)
-<br/><br/>
+
 Here, I changed both backgrounds again. Yes, the verse window has a background, but notice that I lowered the opacity of the window's background. I changed the font, the font size, and its color.
+
 ![SS promo 2](./ss/ss3.png)
-<br/><br/>
+
 This, and many more variations and combinations can be made with these pages. And to top it all off, even after all the changes I've made, I can return back to how I best like my Bible Verse Vista page!<br/>
+
 ![SS back to normal](./ss/SS-mine.png)
-<br/><br/>
+
 For my last step of my implementation, I had to prepare and upload my extension to the Chrome Web Store for their approval. Besides just making sure the extension itself was ready, this involved a number of things. This included setting up the Chrome Web Store listing information, assets, and distribution, explaining what the extension does and is for, giving justification for each Chrome API permission requested in my manifest form, and accounting for any user data collected and/or used.<br/>
+
 ![SS Chrome Web Store Dev Profile](./ss/SS-chrome.png)
+
 <hr><br/>
 
 ## 6 - Test Plan <a id="section6"></a>
