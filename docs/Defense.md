@@ -1001,21 +1001,21 @@ One way to start showing the implementation is to show how I like to have my own
 
 ![SS settings sidebar](ss/SS-mine-settings.png?raw=true)
 
-![SS settings sidebar](https://github.com/BFurrow-Collab/Bible-Verse-Vista/blob/master/docs/ss/SS-mine-settings.png?raw=true)
-
 I will go through how I got to this level of customization, but first, I want to show an important feature. Here in the settings page, I have implemented buttons for "Save User Settings", "Return to Defaults", and "Load User Settings". After pressing the save button, I can return to these settings at any time by pressing load. Also saved are the default settings, which can be returned to at any time.<br/>
 
-![SS Default/Save/Load buttons](./ss/SS-mine-saves.png?raw=true) 
+![SS settings sidebar](ss/SS-mine-settings.png?raw=true)
 
-![SS default page](../ss/SS-default.png?raw=true)
+![SS default page](ss/SS-default.png?raw=true)
 
-This is the page I'll be starting from to demonstrate the present key features of Bible Verse Vista. However, I can reload my saved settings from before, as I stated previously. All this was possible thanks to JavaScript's saving features that can store the many values for the default page and a user-preferred page (and return to either at any time).<br/>
-![SS reloaded page](Bible-Verse-Vista/docs/ss/SS-mine.png)
+This is the page I'll be starting from to demonstrate the present key features of Bible Verse Vista. However, I can reload my saved settings from before, as I stated previously. All this was possible thanks to JavaScript's saving features that can store the many values for the default page and a user-preferred page (and return to either at any time).
+
+![SS reloaded page](ss/SS-mine.png)
 
 Anyways, back to the rest of the main features, we can see that the default page is very basic. Not quite a blank slate, but very close, and that was my intent. This allows users to let their creativity find what they best prefer. From the basics, we see the Verse of the Day, the Bible Version, and the Theme.<br/>
-There are three themes: Light Mode, Dark Mode, and User Mode. User Mode basically starts in Light Mode, and I wanted to separate the User Mode from it so that Light Mode could be easily set and returned to at any time. Not all users want to go through each element they are able to color, including myself. For my own sake, I simply set mine to dark mode. However, to show the full breadth of the features, I will keep it in User Mode.<br/>
-![SS default settings](./Bible-Verse-Vista/docs/ss/SS-default.png)
-<br/><br/>
+There are three themes: Light Mode, Dark Mode, and User Mode. User Mode basically starts in Light Mode, and I wanted to separate the User Mode from it so that Light Mode could be easily set and returned to at any time. Not all users want to go through each element they are able to color, including myself. For my own sake, I simply set mine to dark mode. However, to show the full breadth of the features, I will keep it in User Mode.
+
+![SS default settings](/Bible-Verse-Vista/docs/ss/SS-default.png)
+
 Pulling from Bible Gateway's website via Javascript allows me to use their Automatic Verse of the Day code, but I also manually coded a way to access any verse(s) from their website. This gives the users their own choice of verse at any time so long as they type the book, chapter, and verse(s). Notice how it now isn't the same as the automatic verse from before.
 ![SS User Choice VotD](Bible-Verse-Vista/docs/ss/SS-verse.png)
 <br/><br/>
